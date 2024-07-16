@@ -1,0 +1,31 @@
+{
+	"dictionaries": [
+		"typescript",
+		"node",
+		"html",
+		"css",
+		"en_US",
+		"softwareTerms"
+	],
+	"ignorePaths": ["**/node_modules/**", "**/dist/**", "**/build/**"],
+	"words": [
+		"artboard",
+		"autodocs",
+		"backgrounded",
+		"bento",
+		"chromeless",
+		"codebase",
+		"codebases",
+		"hoverable",
+		"ionicons",
+		"jsxs",
+		"lucide",
+		"moti",
+		"pressable",
+		"styleable",
+		"subtheme",
+		"subthemes",
+		"themeable",
+		"tamagui"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "@acme/ui",
+	"private": true,
+	"version": "1.0.0",
+	"main": "index.ts",
+	"dependencies": {
+		"@tamagui/animations-moti": "1.102.2",
+		"@tamagui/config": "1.102.2",
+		"@tamagui/create-theme": "1.102.2",
+		"@tamagui/theme-builder": "1.102.2",
+		"@tamagui/themes": "1.102.2",
+		"color": "^4.2.3",
+		"react-native-reanimated": "~3.10.1",
+		"tamagui": "1.102.2"
+	},
+	"devDependencies": {
+		"@react-navigation/native": "^6.1.9"
+	}
+}

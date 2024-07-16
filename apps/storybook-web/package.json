@@ -1,0 +1,40 @@
+{
+	"name": "@acme/storybook-web",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"dependencies": {
+		"@acme/ui": "workspace:*",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-native-reanimated": "~3.10.1",
+		"react-native-web": "~0.19.10"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.5",
+		"@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+		"@chromatic-com/storybook": "^1.5.0",
+		"@react-native/babel-preset": "^0.74.83",
+		"@storybook/addon-essentials": "^7.6.19",
+		"@storybook/addon-interactions": "^7.6.19",
+		"@storybook/addon-links": "^7.6.19",
+		"@storybook/addon-react-native-web": "^0.0.23",
+		"@storybook/addon-webpack5-compiler-babel": "^3.0.3",
+		"@storybook/blocks": "^7.6.19",
+		"@storybook/react": "^7.6.19",
+		"@storybook/react-webpack5": "^7.6.19",
+		"@storybook/test": "^7.6.19",
+		"@storybook/theming": "^7.6.19",
+		"@tamagui/babel-plugin": "1.102.2",
+		"babel-plugin-react-native-web": "^0.19.12",
+		"babel-preset-expo": "^11.0.6",
+		"expo": "~51.0.8",
+		"storybook": "^7.6.19",
+		"storybook-dark-mode": "^4.0.1",
+		"tamagui-loader": "1.102.2",
+		"typescript": "^5.3.3"
+	}
+}

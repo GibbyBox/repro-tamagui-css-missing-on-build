@@ -1,0 +1,29 @@
+import { Meta } from "@storybook/blocks";
+import { palettes } from "@acme/ui";
+
+<Meta title="Color Palette" />
+
+# Color Palette
+
+export function Palettes() {
+	return Object.entries(palettes).map(([name, colors]) => (
+		<div key={name}>
+			<h2>{name}</h2>
+			<div style={{ display: "flex", border: "solid 1px black" }}>
+				{/* Strip the transparency colors on the ends */}
+				{colors.slice(1, -1).map((color) => (
+					<div
+						key={color}
+						style={{
+							width: 100,
+							height: 100,
+							backgroundColor: color,
+						}}
+					/>
+				))}
+			</div>
+		</div>
+	));
+}
+
+<Palettes />
